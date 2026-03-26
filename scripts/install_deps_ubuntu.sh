@@ -18,6 +18,6 @@ if [[ "${EUID:-$(id -u)}" -ne 0 ]]; then
 fi
 
 $SUDO apt-get update
-$SUDO apt-get install -y pandoc texlive-xetex texlive-latex-extra fonts-noto-cjk
+$SUDO apt-get install -y pandoc texlive-xetex texlive-latex-extra fonts-noto-cjk nodejs npm
 
-echo "[OK] Installed: pandoc, texlive-xetex, texlive-latex-extra, fonts-noto-cjk"
+echo "[OK] Installed: pandoc, texlive-xetex, texlive-latex-extra, fonts-noto-cjk, nodejs, npm"
